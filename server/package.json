@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "mocha",
-    "test-with-coverage": "nyc --reporter=text mocha --exit"
+    "test": "nyc mocha --exit"
   },
   "keywords": [],
   "author": "",
