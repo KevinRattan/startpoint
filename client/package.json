@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "SERVER=http://localhost:8082 node server.js",
-    "test": "SERVER=http://localhost:8082 mocha"
+    "start": "set SERVER=http://localhost:8082&& node server.js",
+    "test": "set SERVER=http://localhost:8082&& mocha"
   },
   "keywords": [],
   "author": "",
