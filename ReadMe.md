@@ -38,3 +38,5 @@ express-handlebars ( a templating library)
 nock (for mocking the api call)
     https://www.npmjs.com/package/nock
 
+4. Windows users should use the windows branch if they wish to run the code locally
+   - the environment variables are declared differently in package.json
