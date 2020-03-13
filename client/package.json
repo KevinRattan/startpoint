@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "SERVER=http://localhost:8082 node server.js",
-    "test": "SERVER=http://localhost:8082 mocha --exit"
+    "test": "SERVER=http://localhost:8082 nyc mocha --exit"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +14,7 @@
     "chai": "^4.2.0",
     "mocha": "^6.2.0",
     "nock": "^10.0.6",
+    "nyc": "^14.1.1",
     "supertest": "^4.0.2"
   },
   "dependencies": {
